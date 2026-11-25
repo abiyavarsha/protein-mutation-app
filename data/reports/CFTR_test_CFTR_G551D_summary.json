@@ -1,0 +1,40 @@
+{
+  "job_id": "test_CFTR_G551D",
+  "protein_name": "CFTR",
+  "mutant_label": "G551D",
+  "global_rmsd": 0.1252,
+  "local_rmsd": 0.2979,
+  "sequence_identity": 99.93,
+  "alignment_coverage": 100.0,
+  "matched_ca_atoms_count": 200,
+  "mutations": [
+    {
+      "mutation_type": "SUBSTITUTION",
+      "ref_pos": 551,
+      "mut_pos": 551,
+      "ref_aa": "G",
+      "mut_aa": "D",
+      "canonical_notation": "G551D",
+      "mature_pos": 551,
+      "mature_notation": "G551D",
+      "description": "Substitution of G to D at position 551"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "G551D",
+      "mature_notation": "G551D",
+      "type": "SUBSTITUTION",
+      "ref_residue": "Glycine (G)",
+      "mut_residue": "Aspartate (D)",
+      "delta_hydropathy": -3.1,
+      "delta_molecular_weight": 58.0,
+      "delta_charge": -1,
+      "delta_volume": 51.0,
+      "ref_class": "Conformationally flexible",
+      "mut_class": "Acidic negatively charged",
+      "interpretation": "Introduces negative electrostatic charge / loss of positive charge; Substantial decrease in hydrophobicity (polar/charged residue introduced); Significant increase in steric volume (potential steric clash)"
+    }
+  ],
+  "discussion": "Verification run for CFTR G551D. Global RMSD = 0.1252 Angstroms."
+}

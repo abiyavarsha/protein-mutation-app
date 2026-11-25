@@ -1,0 +1,41 @@
+{
+  "job_id": "job_9157393e",
+  "protein_name": "CFTR",
+  "mutant_label": "F508del",
+  "global_rmsd": 0.3593,
+  "local_rmsd": 0.9165,
+  "sequence_identity": 99.0,
+  "alignment_coverage": 99.5,
+  "matched_ca_atoms_count": 199,
+  "mutations": [
+    {
+      "mutation_type": "DELETION",
+      "ref_pos": 508,
+      "mut_pos": 507,
+      "ref_aa": "F",
+      "mut_aa": null,
+      "canonical_notation": "F508del",
+      "mature_pos": 508,
+      "mature_notation": "F508del",
+      "description": "Deletion of F at reference position 508"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "F508del",
+      "mature_notation": "F508del",
+      "type": "DELETION",
+      "ref_residue": "Phenylalanine (F)",
+      "mut_residue": "None (Deleted)",
+      "delta_hydropathy": null,
+      "delta_molecular_weight": null,
+      "delta_charge": null,
+      "delta_volume": null,
+      "ref_class": "Aromatic hydrophobic",
+      "mut_class": "N/A",
+      "interpretation": "Deletion of F creates a backbone gap, shortening the polypeptide chain and potentially altering local secondary structure and packing."
+    }
+  ],
+  "discussion": "**Structural Superimposition Analysis for CFTR:**\n- Structural superimposition yielded a global C-alpha RMSD of 0.3593 \u00c5 across 99.5% alignment coverage.\n- Local C-alpha RMSD in the vicinity (\u00b110 residues) of the mutation site was measured at 0.9165 \u00c5.\n- The low global RMSD (< 1.0 \u00c5) indicates that the overall tertiary fold of the mutant remains closely congruent with the reference backbone. Any functional alterations are likely driven by local side-chain electrostatic or steric effects rather than large-scale domain unfolding.\n\n**Literature-Documented Biological Context:**\n- Primary cause of Cystic Fibrosis (~70% of mutant alleles): In-frame deletion of Phenylalanine 508 in the first nucleotide-binding domain (NBD1). This prevents proper domain folding and disrupts the interface between NBD1 and intracellular loops, causing retention in the endoplasmic reticulum and degradation by ERAD.",
+  "disclaimer": "IMPORTANT SCIENTIFIC LIMITATIONS:\n1. Calculated measurements (RMSD, sequence identity, coverage, and pLDDT) quantify geometric differences between predicted models.\n2. RMSD alone DOES NOT prove protein destabilization, altered folding kinetics, or loss of physiological function.\n3. Pathogenicity or clinical significance cannot be inferred solely from predicted computational structures.\n4. Free energy changes (\u0394\u0394G) cannot be derived directly from RMSD; independent rigorous computational thermodynamics (such as FoldX, Rosetta, or FEP) or experimental biophysics (CD, ITC, DSC) are required."
+}

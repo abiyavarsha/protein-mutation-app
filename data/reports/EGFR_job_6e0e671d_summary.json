@@ -1,0 +1,41 @@
+{
+  "job_id": "job_6e0e671d",
+  "protein_name": "EGFR",
+  "mutant_label": "L858R",
+  "global_rmsd": 0.2432,
+  "local_rmsd": 0.2099,
+  "sequence_identity": 99.0,
+  "alignment_coverage": 100.0,
+  "matched_ca_atoms_count": 80,
+  "mutations": [
+    {
+      "mutation_type": "SUBSTITUTION",
+      "ref_pos": 858,
+      "mut_pos": 858,
+      "ref_aa": "L",
+      "mut_aa": "R",
+      "canonical_notation": "L858R",
+      "mature_pos": 858,
+      "mature_notation": "L858R",
+      "description": "Substitution of L to R at position 858"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "L858R",
+      "mature_notation": "L858R",
+      "type": "SUBSTITUTION",
+      "ref_residue": "Leucine (L)",
+      "mut_residue": "Arginine (R)",
+      "delta_hydropathy": -8.3,
+      "delta_molecular_weight": 43.0,
+      "delta_charge": 1,
+      "delta_volume": 6.7,
+      "ref_class": "Aliphatic hydrophobic",
+      "mut_class": "Basic positively charged",
+      "interpretation": "Introduces positive electrostatic charge; Substantial decrease in hydrophobicity (polar/charged residue introduced)"
+    }
+  ],
+  "discussion": "**Structural Superimposition Analysis for EGFR:**\n- Structural superimposition yielded a global C-alpha RMSD of 0.2432 \u00c5 across 100.0% alignment coverage.\n- Local C-alpha RMSD in the vicinity (\u00b110 residues) of the mutation site was measured at 0.2099 \u00c5.\n- The low global RMSD (< 1.0 \u00c5) indicates that the overall tertiary fold of the mutant remains closely congruent with the reference backbone. Any functional alterations are likely driven by local side-chain electrostatic or steric effects rather than large-scale domain unfolding.\n\n**Literature-Documented Biological Context:**\n- Oncogenic driver in non-small cell lung cancer (NSCLC): Leucine 858 in the activation loop (A-loop) of the kinase domain is replaced by bulky, basic Arginine. This substitution destabilizes the auto-inhibited inactive conformation and stabilizes the active kinase state, imparting constitutive signaling and high sensitivity to EGFR tyrosine kinase inhibitors.",
+  "disclaimer": "IMPORTANT SCIENTIFIC LIMITATIONS:\n1. Calculated measurements (RMSD, sequence identity, coverage, and pLDDT) quantify geometric differences between predicted models.\n2. RMSD alone DOES NOT prove protein destabilization, altered folding kinetics, or loss of physiological function.\n3. Pathogenicity or clinical significance cannot be inferred solely from predicted computational structures.\n4. Free energy changes (\u0394\u0394G) cannot be derived directly from RMSD; independent rigorous computational thermodynamics (such as FoldX, Rosetta, or FEP) or experimental biophysics (CD, ITC, DSC) are required."
+}

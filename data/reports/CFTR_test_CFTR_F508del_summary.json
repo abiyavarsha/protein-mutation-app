@@ -1,0 +1,40 @@
+{
+  "job_id": "test_CFTR_F508del",
+  "protein_name": "CFTR",
+  "mutant_label": "F508del",
+  "global_rmsd": 0.3593,
+  "local_rmsd": 0.9099,
+  "sequence_identity": 99.93,
+  "alignment_coverage": 99.5,
+  "matched_ca_atoms_count": 199,
+  "mutations": [
+    {
+      "mutation_type": "DELETION",
+      "ref_pos": 508,
+      "mut_pos": 507,
+      "ref_aa": "F",
+      "mut_aa": null,
+      "canonical_notation": "F508del",
+      "mature_pos": 508,
+      "mature_notation": "F508del",
+      "description": "Deletion of F at reference position 508"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "F508del",
+      "mature_notation": "F508del",
+      "type": "DELETION",
+      "ref_residue": "Phenylalanine (F)",
+      "mut_residue": "None (Deleted)",
+      "delta_hydropathy": null,
+      "delta_molecular_weight": null,
+      "delta_charge": null,
+      "delta_volume": null,
+      "ref_class": "Aromatic hydrophobic",
+      "mut_class": "N/A",
+      "interpretation": "Deletion of F creates a backbone gap, shortening the polypeptide chain and potentially altering local secondary structure and packing."
+    }
+  ],
+  "discussion": "Verification run for CFTR F508del. Global RMSD = 0.3593 Angstroms."
+}

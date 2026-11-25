@@ -1,0 +1,41 @@
+{
+  "job_id": "job_44da34c0",
+  "protein_name": "KRAS",
+  "mutant_label": "G12D",
+  "global_rmsd": 0.1668,
+  "local_rmsd": 0.0723,
+  "sequence_identity": 99.0,
+  "alignment_coverage": 100.0,
+  "matched_ca_atoms_count": 189,
+  "mutations": [
+    {
+      "mutation_type": "SUBSTITUTION",
+      "ref_pos": 12,
+      "mut_pos": 12,
+      "ref_aa": "G",
+      "mut_aa": "D",
+      "canonical_notation": "G12D",
+      "mature_pos": 12,
+      "mature_notation": "G12D",
+      "description": "Substitution of G to D at position 12"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "G12D",
+      "mature_notation": "G12D",
+      "type": "SUBSTITUTION",
+      "ref_residue": "Glycine (G)",
+      "mut_residue": "Aspartate (D)",
+      "delta_hydropathy": -3.1,
+      "delta_molecular_weight": 58.0,
+      "delta_charge": -1,
+      "delta_volume": 51.0,
+      "ref_class": "Conformationally flexible",
+      "mut_class": "Acidic negatively charged",
+      "interpretation": "Introduces negative electrostatic charge / loss of positive charge; Substantial decrease in hydrophobicity (polar/charged residue introduced); Significant increase in steric volume (potential steric clash)"
+    }
+  ],
+  "discussion": "**Structural Superimposition Analysis for KRAS:**\n- Structural superimposition yielded a global C-alpha RMSD of 0.1668 \u00c5 across 100.0% alignment coverage.\n- Local C-alpha RMSD in the vicinity (\u00b110 residues) of the mutation site was measured at 0.0723 \u00c5.\n- The low global RMSD (< 1.0 \u00c5) indicates that the overall tertiary fold of the mutant remains closely congruent with the reference backbone. Any functional alterations are likely driven by local side-chain electrostatic or steric effects rather than large-scale domain unfolding.\n\n**Literature-Documented Biological Context:**\n- KRAS G12D driver: Gly12Asp in the P-loop sterically hinders GAP-mediated GTP hydrolysis, freezing KRAS in the active GTP-bound state and driving constitutive RAF-MEK-ERK signaling in pancreatic adenocarcinoma and colorectal cancer.",
+  "disclaimer": "IMPORTANT SCIENTIFIC LIMITATIONS:\n1. Calculated measurements (RMSD, sequence identity, coverage, and pLDDT) quantify geometric differences between predicted models.\n2. RMSD alone DOES NOT prove protein destabilization, altered folding kinetics, or loss of physiological function.\n3. Pathogenicity or clinical significance cannot be inferred solely from predicted computational structures.\n4. Free energy changes (\u0394\u0394G) cannot be derived directly from RMSD; independent rigorous computational thermodynamics (such as FoldX, Rosetta, or FEP) or experimental biophysics (CD, ITC, DSC) are required."
+}

@@ -1,0 +1,40 @@
+{
+  "job_id": "test_HBB_E6V",
+  "protein_name": "HBB",
+  "mutant_label": "E6V",
+  "global_rmsd": 0.0111,
+  "local_rmsd": 0.0215,
+  "sequence_identity": 99.32,
+  "alignment_coverage": 100.0,
+  "matched_ca_atoms_count": 147,
+  "mutations": [
+    {
+      "mutation_type": "SUBSTITUTION",
+      "ref_pos": 7,
+      "mut_pos": 7,
+      "ref_aa": "E",
+      "mut_aa": "V",
+      "canonical_notation": "E7V",
+      "mature_pos": 6,
+      "mature_notation": "E6V",
+      "description": "Substitution of E to V at position 7 (mature chain position: 6, notation: E6V)"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "E7V",
+      "mature_notation": "E6V",
+      "type": "SUBSTITUTION",
+      "ref_residue": "Glutamate (E)",
+      "mut_residue": "Valine (V)",
+      "delta_hydropathy": 7.7,
+      "delta_molecular_weight": -30.0,
+      "delta_charge": 1,
+      "delta_volume": 1.6,
+      "ref_class": "Acidic negatively charged",
+      "mut_class": "Aliphatic hydrophobic",
+      "interpretation": "Introduces positive electrostatic charge; Substantial increase in hydrophobicity (may favor hydrophobic core burial or surface aggregation)"
+    }
+  ],
+  "discussion": "Verification run for HBB E6V. Global RMSD = 0.0111 Angstroms."
+}

@@ -1,0 +1,40 @@
+{
+  "job_id": "test_TP53_R273H",
+  "protein_name": "TP53",
+  "mutant_label": "R273H",
+  "global_rmsd": 0.8151,
+  "local_rmsd": 0.2677,
+  "sequence_identity": 99.75,
+  "alignment_coverage": 100.0,
+  "matched_ca_atoms_count": 393,
+  "mutations": [
+    {
+      "mutation_type": "SUBSTITUTION",
+      "ref_pos": 273,
+      "mut_pos": 273,
+      "ref_aa": "R",
+      "mut_aa": "H",
+      "canonical_notation": "R273H",
+      "mature_pos": 273,
+      "mature_notation": "R273H",
+      "description": "Substitution of R to H at position 273"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "R273H",
+      "mature_notation": "R273H",
+      "type": "SUBSTITUTION",
+      "ref_residue": "Arginine (R)",
+      "mut_residue": "Histidine (H)",
+      "delta_hydropathy": 1.3,
+      "delta_molecular_weight": -19.0,
+      "delta_charge": -0.9,
+      "delta_volume": -20.2,
+      "ref_class": "Basic positively charged",
+      "mut_class": "Basic / Aromatic",
+      "interpretation": "Introduces negative electrostatic charge / loss of positive charge"
+    }
+  ],
+  "discussion": "Verification run for TP53 R273H. Global RMSD = 0.8151 Angstroms."
+}

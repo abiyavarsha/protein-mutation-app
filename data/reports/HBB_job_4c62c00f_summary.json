@@ -1,0 +1,41 @@
+{
+  "job_id": "job_4c62c00f",
+  "protein_name": "HBB",
+  "mutant_label": "E7V",
+  "global_rmsd": 0.0111,
+  "local_rmsd": 0.0215,
+  "sequence_identity": 99.0,
+  "alignment_coverage": 100.0,
+  "matched_ca_atoms_count": 147,
+  "mutations": [
+    {
+      "mutation_type": "SUBSTITUTION",
+      "ref_pos": 7,
+      "mut_pos": 7,
+      "ref_aa": "E",
+      "mut_aa": "V",
+      "canonical_notation": "E7V",
+      "mature_pos": 6,
+      "mature_notation": "E6V",
+      "description": "Substitution of E to V at position 7 (mature chain position: 6, notation: E6V)"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "E7V",
+      "mature_notation": "E6V",
+      "type": "SUBSTITUTION",
+      "ref_residue": "Glutamate (E)",
+      "mut_residue": "Valine (V)",
+      "delta_hydropathy": 7.7,
+      "delta_molecular_weight": -30.0,
+      "delta_charge": 1,
+      "delta_volume": 1.6,
+      "ref_class": "Acidic negatively charged",
+      "mut_class": "Aliphatic hydrophobic",
+      "interpretation": "Introduces positive electrostatic charge; Substantial increase in hydrophobicity (may favor hydrophobic core burial or surface aggregation)"
+    }
+  ],
+  "discussion": "**Structural Superimposition Analysis for HBB:**\n- Structural superimposition yielded a global C-alpha RMSD of 0.0111 \u00c5 across 100.0% alignment coverage.\n- Local C-alpha RMSD in the vicinity (\u00b110 residues) of the mutation site was measured at 0.0215 \u00c5.\n- The low global RMSD (< 1.0 \u00c5) indicates that the overall tertiary fold of the mutant remains closely congruent with the reference backbone. Any functional alterations are likely driven by local side-chain electrostatic or steric effects rather than large-scale domain unfolding.\n\n**Literature-Documented Biological Context:**\n- Sickle cell anemia driver mutation: Glutamate (acidic, negatively charged, hydrophilic) is replaced by Valine (hydrophobic, aliphatic) at residue 6 of the mature beta-globin chain. This exposes a hydrophobic patch on the deoxygenated tetramer surface that interlocks with a complementary hydrophobic pocket (Phe85 and Leu88) on an adjacent beta-globin subunit, driving pathological polymerisation.",
+  "disclaimer": "IMPORTANT SCIENTIFIC LIMITATIONS:\n1. Calculated measurements (RMSD, sequence identity, coverage, and pLDDT) quantify geometric differences between predicted models.\n2. RMSD alone DOES NOT prove protein destabilization, altered folding kinetics, or loss of physiological function.\n3. Pathogenicity or clinical significance cannot be inferred solely from predicted computational structures.\n4. Free energy changes (\u0394\u0394G) cannot be derived directly from RMSD; independent rigorous computational thermodynamics (such as FoldX, Rosetta, or FEP) or experimental biophysics (CD, ITC, DSC) are required."
+}

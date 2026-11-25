@@ -1,0 +1,40 @@
+{
+  "job_id": "test_EGFR_L858R",
+  "protein_name": "EGFR",
+  "mutant_label": "L858R",
+  "global_rmsd": 0.2432,
+  "local_rmsd": 0.2099,
+  "sequence_identity": 99.92,
+  "alignment_coverage": 100.0,
+  "matched_ca_atoms_count": 80,
+  "mutations": [
+    {
+      "mutation_type": "SUBSTITUTION",
+      "ref_pos": 858,
+      "mut_pos": 858,
+      "ref_aa": "L",
+      "mut_aa": "R",
+      "canonical_notation": "L858R",
+      "mature_pos": 858,
+      "mature_notation": "L858R",
+      "description": "Substitution of L to R at position 858"
+    }
+  ],
+  "biophysical_changes": [
+    {
+      "notation": "L858R",
+      "mature_notation": "L858R",
+      "type": "SUBSTITUTION",
+      "ref_residue": "Leucine (L)",
+      "mut_residue": "Arginine (R)",
+      "delta_hydropathy": -8.3,
+      "delta_molecular_weight": 43.0,
+      "delta_charge": 1,
+      "delta_volume": 6.7,
+      "ref_class": "Aliphatic hydrophobic",
+      "mut_class": "Basic positively charged",
+      "interpretation": "Introduces positive electrostatic charge; Substantial decrease in hydrophobicity (polar/charged residue introduced)"
+    }
+  ],
+  "discussion": "Verification run for EGFR L858R. Global RMSD = 0.2432 Angstroms."
+}
